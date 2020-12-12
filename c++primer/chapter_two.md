@@ -1,4 +1,4 @@
-# 第六章 函数
+第六章 函数
 
 ## 6.1 基础概念
 
@@ -557,13 +557,74 @@ c++就带着学，每天看一个几点几
 * 类的基本思想是`数据抽象`和`封装`  （首先要定义一个抽象数据类型）
 * `数据抽象`是一种依赖于`接口`和`实现`分离的编程技术。类的接口包括用户所能执行的操作；类的实现包括`类的成员`，负责接口实现的`函数体`以及定义类所需要的各种`私有函数`。
 * `封装`实现了类的`接口`和`实现`的分离。封装后的类隐藏了它的实现细节。即类的用户只能使用接口而无法访问实现部分
-* 
+* 类的用户可以直接访问它的数据成员的不是抽象数据类型。
+* 定义在类内部的函数是隐式的inline函数
+* 成员函数的声明必须在类的内部，但是定义不一定要在内部，也可以在外部
 
+```c++
+class Sales_data{
+  std::string isbin( ) const { return bookNo; } //定义和声明都在内部
+  Sales_data &combine( const Sales_data& ); //只有声明在内部
+  double avg_price() const; //只有声明在内部
+  std::string bookNo;
+};
+Sales_data add( const Sales_data&, const Sales_data& ); //Sales_data的非成员接口函数
+```
 
+* isbin()函数中，其返回的是Sales_data对象的bookNo数据成员。但是其是如何获得bookNo成员所依赖的对象的呢？
 
+```c++
+total.isbin();
+//通过点运算符来访问total对象的isbin成员  当调用成员函数时，实际上是在替某个对象调用它
+//这里isbin指向类的成员bookNo，则它其实隐式地指向调用isbin的类的对象的成员 这里是isbin返回bookNo时，实际上隐式地返回total.bookNo
+```
 
+### this指针
 
+* 成员函数通过一个名为this的额外的隐式参数 来访问 调用它的那个对象，这里指isbin函数通过隐式参数this来访问total
+* 如果调用**total.isbin() **编译器会负责把`total的地址`传给isbin的`隐式形参this` ，可以等价为下面这种形式
 
+```c++
+total.isbin(); //原来的
+Sales_data::isbin(&total) //调用isbin成员时传入了total的地址
+```
+
+* 在成员函数内部，可以直接调用成员，而不需要用成员访问符，就是因为this所指的正是这个对象。 任何对类成员的直接访问都被看作this的隐式引用。
+
+```c++
+std::string isbin( ) const { return bookNo; }
+```
+
+* 这里的const关键字放在成员函数的参数列表之后，表示this是一个指向常量 的指针，这样就可以把this绑定到一个常量对象上，即一个常量对象上就可以调用普通的成员函数。 使用const的成员函数叫做**常量成员函数**
+
+### 类作用域和成员函数
+
+* 编译器会首先编译成员的声明，然后才轮到成员函数体。因此成员函数体可以随意使用类中的其他成员而无需在意这些成员出现的次序。
+
+* 在类外部定义的成员函数，其函数名必须包含它所属的类名：
+
+  ```c++
+  double Sales_data::avg_price() const { 
+    if( units_sold)
+      return revenue / units_sold;
+  }
+  ```
+
+  编译器一看到这个函数名，就能理解剩余代码是位于类的作用域内的。因此，当avg_price使用 revenue和units_sold时，实际上它隐式地使用了类的成员
+
+### 定义一个返回this对象的函数
+
+![Screenshot 2020-12-12 at 10.34.55 PM](/Users/yannie/Desktop/Screenshot 2020-12-12 at 10.34.55 PM.png)
+
+(要仔细看啊，很重要的这一个小知识点)
+
+* 非成员函数是类接口的组成部分，这些函数的声明（非定义）应该与类在同一个头文件内
+
+![Screenshot 2020-12-12 at 10.38.20 PM](/Users/yannie/Library/Application Support/typora-user-images/Screenshot 2020-12-12 at 10.38.20 PM.png)
+
+* 默认情况下，拷贝类的对象其实拷贝的是对象的数据成员
+
+### 构造函数
 
 
 
