@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="RightGraph" targetName="RightGraph" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e6a3559-d6e0-4186-a03d-10b522b43744" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../beginning__MachineLearning/liuyubobobo/PlayML/CartPole.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../beginning__MachineLearning/liuyubobobo/PlayML/Play.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../beginning__MachineLearning/liuyubobobo/PlayML/pg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../beginning__MachineLearning/liuyubobobo/PlayML/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_10_31.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_11_514.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_12_922.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_1_140.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_2_349.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_3_941.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_4_57.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_5_127.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_6_1356.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_9_973.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/leetcode121.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/ll_8_122.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/temp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/DTGH/leetcode1314.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/DTGH/leetcode467.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/DTGH/leetcode787.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/BinarySearchTree/BinarySearch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/BinarySearchTree/BinarySearchTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/BinarySearchTree/leetcode_temp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/BinaryTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode100.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode101.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode104.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode108.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode110.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode111.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode112.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode113.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode129.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode222.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode226.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode230.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode235.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode236.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode257.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode404.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode437.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode450.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode98.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/temp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode125.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode167.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode167_2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode209.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode344.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode345.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode438.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode76.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/Fibonaci.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/knapsack01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/knapsack02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode120.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode139.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode198.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode213.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode279.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode300.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode309.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode337.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode343.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode376.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode416.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode474.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode494.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode62.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode63.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode64.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode70.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode91.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/temp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode130.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode131.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode17.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode200.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode216.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode37.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode39.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode40.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode401.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode417.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode46.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode47.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode51.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode52.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode77.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode78.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode79.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode90.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode93.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/temp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第四章查找表/MapUsage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Edge.h" />
+        <option value="$PROJECT_DIR$/DenseGraph.h" />
+        <option value="$PROJECT_DIR$/ReadGraph.h" />
+        <option value="$PROJECT_DIR$/testG1.txt" />
+        <option value="$PROJECT_DIR$/SparseGraph.h" />
+        <option value="$PROJECT_DIR$/LazyPrimMST.h" />
+        <option value="$PROJECT_DIR$/IndexMinHeap.h" />
+        <option value="$PROJECT_DIR$/PrimMST.h" />
+        <option value="$PROJECT_DIR$/testG2.txt" />
+        <option value="$PROJECT_DIR$/main_performance.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/temp.h" />
+        <option value="$PROJECT_DIR$/MinHeap.h" />
+        <option value="$PROJECT_DIR$/KruskalMST.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="839" />
+    <option name="y" value="41" />
+    <option name="width" value="1132" />
+    <option name="height" value="763" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RightGraph" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RightGraph" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="RightGraph" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RightGraph" TARGET_NAME="RightGraph" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RightGraph" RUN_TARGET_NAME="RightGraph">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e6a3559-d6e0-4186-a03d-10b522b43744" name="Default Changelist" comment="" />
+      <created>1607738172174</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607738172174</updated>
+      <workItem from="1607738173667" duration="8896000" />
+      <workItem from="1607753016847" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8966000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="839" y="41" width="1132" height="763" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24954128" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32932332" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32932332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32932332" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="CMake" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DenseGraph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+          <folding>
+            <element signature="e#115#134#0" expanded="true" />
+            <element signature="e#236#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadGraph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding>
+            <element signature="e#236#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Edge.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding>
+            <element signature="e#99#117#0" expanded="true" />
+            <element signature="e#150#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SparseGraph.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#117#136#0" expanded="true" />
+            <element signature="e#237#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IndexMinHeap.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#114#133#0" expanded="true" />
+            <element signature="e#214#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrimMST.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+          <folding>
+            <element signature="e#105#123#0" expanded="true" />
+            <element signature="e#236#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testG2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3843">
+          <caret line="1273" column="13" selection-start-line="1273" selection-start-column="13" selection-end-line="1273" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testG4.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testG3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_performance.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#45#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UnionFind.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="67" column="22" lean-forward="true" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LazyPrimMST.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#112#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testG1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.h" />
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MinHeap.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="981">
+          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
+          <folding>
+            <element signature="e#104#124#0" expanded="true" />
+            <element signature="e#182#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KruskalMST.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+          <folding>
+            <element signature="e#110#128#0" expanded="true" />
+            <element signature="e#240#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

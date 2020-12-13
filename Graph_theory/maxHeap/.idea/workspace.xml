@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="maxHeap" targetName="maxHeap" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="10e1762e-fd13-4c69-825b-6f618a25c080" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../beginning__MachineLearning/liuyubobobo/PlayML/CartPole.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../beginning__MachineLearning/liuyubobobo/PlayML/Play.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../beginning__MachineLearning/liuyubobobo/PlayML/pg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../beginning__MachineLearning/liuyubobobo/PlayML/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_10_31.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_11_514.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_12_922.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_1_140.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_2_349.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_3_941.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_4_57.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_5_127.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_6_1356.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/11_9_973.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/leetcode121.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/ll_8_122.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/11月每日一题/temp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/DTGH/leetcode1314.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/DTGH/leetcode467.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/DTGH/leetcode787.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/BinarySearchTree/BinarySearch.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/BinarySearchTree/BinarySearchTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/BinarySearchTree/leetcode_temp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/BinaryTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode100.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode101.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode104.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode108.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode110.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode111.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode112.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode113.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode129.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode222.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode226.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode230.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode235.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode236.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode257.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode404.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode437.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode450.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/leetcode98.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第七章二叉树和递归/temp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode125.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode167.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode167_2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode209.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode344.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode345.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode438.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第三章数组/leetcode76.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/Fibonaci.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/knapsack01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/knapsack02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode120.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode139.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode198.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode213.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode279.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode300.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode309.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode337.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode343.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode376.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode416.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode474.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode494.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode62.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode63.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode64.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode70.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/leetcode91.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第九章动态规划/temp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode130.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode131.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode17.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode200.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode216.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode37.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode39.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode40.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode401.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode417.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode46.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode47.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode51.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode52.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode77.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode78.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode79.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode90.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/leetcode93.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第八章递归和回溯法/temp.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode算法刷题/第四章查找表/MapUsage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding>
+                <element signature="e#311#323#0" expanded="true" />
+                <element signature="e#311#323#0" expanded="true" />
+                <element signature="e#312#324#0" expanded="true" />
+                <element signature="e#576#588#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Heap.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Heap.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/maxHeap.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="602" />
+    <option name="y" value="25" />
+    <option name="width" value="1132" />
+    <option name="height" value="763" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="maxHeap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="maxHeap" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="maxHeap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="maxHeap" TARGET_NAME="maxHeap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="maxHeap" RUN_TARGET_NAME="maxHeap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10e1762e-fd13-4c69-825b-6f618a25c080" name="Default Changelist" comment="" />
+      <created>1607849252941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607849252941</updated>
+      <workItem from="1607849256767" duration="6922000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6922000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="602" y="25" width="1132" height="763" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24954128" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49908257" weight="0.32932332" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50183487" side_tool="true" visible="true" weight="0.32932332" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49816513" weight="0.32932332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SortTestHelper.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1158">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Heap.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <element signature="e#311#323#0" expanded="true" />
+            <element signature="e#311#323#0" expanded="true" />
+            <element signature="e#312#324#0" expanded="true" />
+            <element signature="e#576#588#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
