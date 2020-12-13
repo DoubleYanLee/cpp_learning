@@ -614,13 +614,13 @@ std::string isbin( ) const { return bookNo; }
 
 ### 定义一个返回this对象的函数
 
-![Screenshot 2020-12-12 at 10.34.55 PM](/Users/yannie/Desktop/Screenshot 2020-12-12 at 10.34.55 PM.png)
+![](/Users/yannie/Desktop/cpp_learning/c++primer/pic/pic1.png)
 
 (要仔细看啊，很重要的这一个小知识点)
 
 * 非成员函数是类接口的组成部分，这些函数的声明（非定义）应该与类在同一个头文件内
 
-![Screenshot 2020-12-12 at 10.38.20 PM](/Users/yannie/Library/Application Support/typora-user-images/Screenshot 2020-12-12 at 10.38.20 PM.png)
+![pic2](/Users/yannie/Desktop/cpp_learning/c++primer/pic/pic2.png)
 
 * 默认情况下，拷贝类的对象其实拷贝的是对象的数据成员
 
