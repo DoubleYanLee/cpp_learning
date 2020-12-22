@@ -893,13 +893,262 @@ stack<string, vector<string>> str_stk; //stack由vector<string>实现了，而�
 
 ### 10.1 概述
 
+* 标准库并未给每个容器都定义成员函数来完成特定的操作，而是定义了一组泛型算法。“算法”是因为它们实现了一些经典算法的公共接口，如排序和搜索；“泛型”是因为它们可以用于不同类型元素和多种容器类型。
+* 这些算法通常是遍历由两个迭代器指定的一个元素范围来进行操作。
 
+```c++
+auto result = find(vec.cbegin(), vec.cend(), val); //查找元素中的特定值val 返回的是指向它的迭代器  如果没有找到，则返回第二个参数来表示搜索失败
+```
 
+* 迭代器使算法不依赖于容器，但是算法依赖于元素类型的操作，比如元素类型要支持==的操作
+* 算法永远不会改变底层容器的大小，其可能改变容器中保存的值，或移动元素，但不会直接添加或删除元素  插入器(inserter)就可能做这个事情
 
+### 10.2 初始泛型
 
+* 除了少数例外，标准库算法都对一个范围内的元素进行操作。接受输入范围的算法总是使用前两个参数来表示此范围。
 
+* 只读算法：只读取算法，并不改变元素
 
+  * find函数   accumulate函数，定义在numeric中，前两个参数是范围，第三个参数是和的初值。accumulate的第三个参数类型决定了函数中使用哪个加法运算符以及返回值类型。
+  * 调用accumulate将vector中所有string元素连在一起
 
+  ```c++
+  string sum = accumulate( v.cbegin(), v.cend(),string("") ); //第三个参数不能直接传一个""，因为这样，保存和的对象类型是const char*，而该类型没有定义+运算符
+  ```
+
+  * equal: 用于判断两个序列是否保存相同的值。此算法接受三个迭代器，前两个表示第一个序列中的元素范围，第三个表示第二个序列中的首元素
+
+  ```c++
+  equal(roster1.cbegin(), roster1.end(), roster2.begin() );
+  ```
+
+* 写容器元素算法: 记住算法不会执行容器操作，因此它们自身不可能改变容器的大小
+
+  * fill算法，接受一对迭代器表示一个范围，还接受一个值作为第三个参数，将其赋值给输入序列中的每个元素
+
+  ```c++
+  fill(vec.begin(), vec.end(), 0); //将每个元素都置为0
+  ```
+
+  * fill_n接受一个单迭代器，一个计数值和一个值，它将给定值赋予迭代器指向的元素开始的指定个元素。
+
+  ```c++
+  fill_n( vec.begin(),vec.size(), 0 ); //将所有元素重置为0
+  vector<int> res; //空向量
+  fill_n(res.begin(),10, 0); //错误，修改不存在的元素
+  ```
+
+  * 当通过一个插入迭代器赋值时，一个与赋值号右侧值相等的元素被添加到容器中。
+  * back_inserter  它定义在头文件 iterator中，其接受一个指向容器的引用，返回一个与该容器绑定的插入迭代器。当通过迭代器赋值时，赋值运算符会调用pu sh_back将一个具有给定值的元素添加到容器中
+
+  ```c++
+  vector<int> vec;
+  auto it = back_inserter(vec);
+  *it = 42; //此时元素才会被插入到vec中
+  ```
+
+  * 通常使用back_inserter来创建一个迭代器，作为算法的目的位置来使用
+
+  ```c++
+  vector<int> vec;
+  fill_n(back_inserter(vec),10,0); //添加10个元素到vec
+  ```
+
+* 拷贝算法：此算法接受三个迭代器，前两个表示一个输入范围，第三个表示目的序列的起始位置。此算法将输入范围中的元素拷贝到目的序列中。copy返回的是目的位置迭代器的值，即其恰好指向拷贝到a2的尾元素之后的位置。
+
+```c++
+int a1[] = {0,1,2,3,4,5};
+int a2[sizeof(a1)/sizeof(*a1)];
+auto ret = copy(begin(al),end(a1),a2);
+```
+
+		* replace算法，接受四个参数：前两个是迭代器，表示输入序列，后两个一个是要搜索的值，一个是新值。将所有等于给定值的元素都改为另一个值。
+
+```c++
+replace(ilst.begin(), ilst.end(), 0, 42);
+replace_copy( ilst.cbegin(),ilst.cend(), back_inserter(ivec), 0, 42 );
+//该算法中ilst并未改变，invec包含ilst的一份拷贝，但是原来在ilst中值为0的元素在ivec中都变成42
+```
+
+* 重排容器元素的算法
+  * sort函数，默认按升序排列，unique标准库算法使不重复的元素出现在vector开始部分，返回指向不重复区域之后一个位置的迭代器。算法不能执行容器，所以要用erase成员函数来删除元素。
+  * unique并不真删除任何元素，只是覆盖相邻的重复元素，所以后面位置的元素是未知的。
+
+### 10.3 定制操作
+
+#### 10.3.1 向算法传递函数
+
+* sort的重载版本，接受第三个参数，此参数是一个**谓词**
+* 谓词是一个可调用的表达式，其返回结果是一个能用作条件的值。谓词分为：一元谓词和二元谓词(意味着有两个参数)，接受谓词参数的算法对输入序列中的元素调用谓词。
+
+```c++
+bool isShorter( const string &s1, const string &s2 )
+  return s1.size() < s2.size();
+sort( words.begin(), words.end(), isShorter );
+```
+
+* stable_sort算法维持相等元素的原有顺序，其接受的参数和sort一样
+
+#### 10.3.2 lambda表达式
+
+* 为了解决不用为每个可能的大小都编写一个独立的谓词，引入了lambda表达式
+* 使用find_if算法来查找第一个具有特定大小的元素。其接受一对迭代器表示一个范围，其第三个参数是一个谓词。 find_if算法对输入序列中的每个元素调用给定的谓词，其返回第一个使谓词返回非0值的元素。
+* find_if只接受一元谓词，所以要用lambda表达式来解决
+* 我们可以向一个算法传递任何类别的可调用对象（指可以用调用运算符()的对象或表达式）
+* lambda表达式表示一个可调用的代码单元，可以将其理解为未命名的内联函数。一个lambda具有一个返回类型，一个参数列表和一个函数体。但与函数不同，lambda可以定义在函数内部。
+
+```c++
+[capture list](parameter list) -> return type { function body }
+//capture list指其所在函数中定义的局部变量的列表 通常为空
+//return type 返回类型  parameter list 参数列表 （前两个可忽略） function body 函数体
+//lambda表达式必须用尾置返回来指定返回类型
+```
+
+* lambda的调用方式和普通函数的调用方式相同，都是使用调用运算符。
+
+```c++
+auto f = []{return 42;};  //定义一个可调用对象f，它不接受参数，返回42
+cout << f() << endl; //打印42
+```
+
+* 向lambda传递参数 : 其调用的实参数目永远与形参数目相等
+
+```c++
+[](const string &a, const. string &b){ return a.size() < b.size(); } //按升序排序 空捕获列表说明此lambda不使用它所在函数中任何局部变量
+//按长度排序，长度相同的维持字典序
+stable_sort( words.begin(), word.end(),
+           [](const string &a, const string &b)
+            { return a.size() < b.size();} );
+```
+
+* 查找第一个长度大于等于sz的元素
+
+```c++
+auto wc = find_if( words.begin(), words.end(), 
+                 [sz](const string &a){ return a.size() >= sz; }); 
+//find_if返回的是迭代器
+for_each( wc, words.end(), //这是两个迭代器，表示一个范围
+        [](const string &s){ cout << s << " "; });
+cout << endl; //打印长度大于等于给定值的单词，每个单词后面接一个空格
+```
+
+* For_each算法，接受一个可调用对象，并对输入序列中每个元素调用此对象。
+
+#### 10.3.3 lambda捕获和返回
+
+**捕获是指一个lambda表达式将局部变量包含在捕获列表，在捕获列表中的参数则可以被lambda函数体使用**
+
+* 向一个函数传递一个lambda时，同时定义了一个新类型和该类型的一个对象：传递的参数就是此编译器生成的类类型的未命名对象。
+* lambda采用值捕获方式。与传值参数类似，采用值捕获的前提是变量可以拷贝。与参数不同，被捕获的变量的值是在lambda创建时拷贝，而不是调用时拷贝。
+
+```c++
+void fcn1(){
+  size_t v1 = 42; 
+  auto f = [v1] { return v1; };
+  v1 = 0;
+  auto j = f(); //j为42，因为是在创建的时候拷贝而不是调用时候拷贝，所以j并不为0
+}
+```
+
+* 引用捕获， 在定义lambda时可以采用引用方式捕获变量
+
+  ```c++
+  void fcn2(){
+    size_t v1 = 42; 
+    auto f2 = [&v1] { return v1; };
+    v1 = 0;
+    auto j = f(); //j为0，f2保存的是v1的引用，而非拷贝
+  }
+  ```
+
+* 引用捕获的问题：采用引用方式捕获一个变量，就必须保证被引用的对象在lambda执行的时候是存在的。lambda捕获的都是局部变量，这些变量在函数结束后就不存在了。如果lambda可能在函数结束后执行，捕获的引用指向的局部变量已经消失。
+
+* 引用捕获的必要性：我们不能拷贝ostream对象，因此捕获os的唯一方法就是捕获其引用或指向os的指针
+
+```c++
+void biggies( vector<string> &words, vector<string>::size_type sz,
+            ostream &os = cout, char c = ' '){
+  for_each( words.begin(), words.end(),
+          [&os, c](const string &s) { os << s << c;} );
+}//接受一个ostream的引用用来输出数据，并接受一个字符作为分隔符
+```
+
+* 隐式捕获：让编译器根据lambda体中的代码来推断我们要使用哪些变量。为了指示编译器推断捕获列表，应在捕获列表中写&（捕获引用）或=（捕获值，也可以混合使用，但捕获列表中第一个元素必须是一个&或=）
+* 默认情况下，对于一个值被拷贝的变量，lambda不会改变其值，若想改变一个被捕获的变量的值，可以在参数列表首加上关键字mutable
+
+```c++
+void fcn3(){
+  size_t v1 = 42;
+  auto f = [v1]()mutable { return ++v1; }; //f改变了捕获变量的值
+  v1 = 0;
+  auto j = f(); // j为43
+}
+```
+
+```c++
+void fcn4(){
+  size_t v1 = 42;
+  auto f = [&v1]{ return ++v1; };  //v1是一个非const变量的引用，可以通过f中的引用来改变他的值
+  v1 = 0;
+  auto j = f(); // j为1
+}
+```
+
+* 指定lambda的返回类型
+
+  ![](/Users/yannie/Desktop/cpp_learning/c++primer/pic/pic8.png)
+
+#### 10.3.4 参数绑定
+
+* 标准库函数bind，定义在头文件functional中。可将其看作一个通用的函数适配器，接受一个可调用对象，生成一个新的可调用对象来“适应”原对象的参数列表:
+
+```c++
+auto newCallable = bind(callable, arg_list);
+//newCallable本身是一个可调用对象 arg_list是一个逗号分隔的参数列表，对应于callable的参数
+```
+
+* 即当调用newCallable时,newCallable会调用callable函数，并传递它arg_list中的参数
+* arg_list参数重可能包含形如_n的名字，其中n是一个整数。这些参数是"占位符"，_`_1`表示newCallable的第一个参数
+
+```c++
+auto check6 = bind(check_size, _1, 6);
+//check6是一个可调用对象，接受一个string类型参数，并用其和6来调用check_size
+//bind调用只有一个占位符，表示check6只接受单一参数
+string s = "hello";  bool b1 = check6(s); //check(6)会调用check_size(s,6);
+```
+
+* 名字_n都定义在一个名为placeholders的命名空间中，这个命名空间本身又定义在std命名空间中
+
+```c++
+using std::placeholders::_1;
+using namepsace std::placeholders; //这样就可以直接使用_n这个占位符名字了
+```
+
+```c++
+auto g = bind(f, a, b, _2, c, _1 );
+g(_1, _2)被映射为 f(a,b,_2,c,_1)
+```
+
+* 用bind重排参数顺序
+
+```c++
+sort( words.begin(), words.end(), isShorter); //单词长度由短至长
+sort( words.begin(), words.end(), bind(isShorter, _2, _1) );//单词长度由长至短
+```
+
+* 绑定引用参数
+
+  * 默认情况下，bind的那些不是占位符的参数被拷贝到bind返回的可调用对象中，但有时候要绑定的参数类型无法拷贝，就需要绑定引用参数了
+  * 如希望传递给bind一个对象而又不拷贝它，必须使用标准库ref函数
+
+  ```c++
+  for_each( words.begin(),words.end(), 
+           bind(print, ref(os), _1, ' ') );
+  //ref返回一个对象，包含给定的引用，此对象可以拷贝 cref生成的是保存const引用的类
+  //ref cref也保存在functional中
+  ```
+
+  
 
 
 
